@@ -15,5 +15,19 @@
             "name": "Wonder Woman",
             "alterEgo": "Princess Diana"
         }
+    ],
+    "languages": [
+        {
+            "id": 1,
+            "nativeName": "English"
+        },
+        {
+            "id": 2,
+            "nativeName": "Tiếng Việt"
+        },
+        {
+            "id": 3,
+            "nativeName": "日本語"
+        }
     ]
 }
