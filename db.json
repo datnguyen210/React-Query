@@ -29,5 +29,19 @@
             "id": 3,
             "nativeName": "日本語"
         }
+    ],
+    "greetings": [
+        {
+            "id": "English",
+            "greeting": "Hello"
+        },
+        {
+            "id": "Tiếng Việt",
+            "greeting": "Xin Chào"
+        },
+        {
+            "id": "日本語",
+            "greeting": "こんにちは"
+        }
     ]
 }

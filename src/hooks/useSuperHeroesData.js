@@ -11,7 +11,8 @@ const useSuperHeroesData = function(onSuccess, onError) {
         fetchSuperHeroes,
         {
             onSuccess,
-            onError,          
+            onError,
+            refetchOnWindowFocus: false          
         })
 }
 

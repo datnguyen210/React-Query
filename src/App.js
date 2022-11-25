@@ -6,6 +6,7 @@ import { QueryClientProvider, QueryClient } from 'react-query';
 import { ReactQueryDevtools } from 'react-query/devtools'
 import { RQSuperHeroPage } from './components/RQSuperHero.page';
 import { LanguagesPage } from './components/Languages.page';
+import { GreetingsPage } from './components/Greetings.page';
 
 const queryClient = new QueryClient()
 
@@ -32,6 +33,7 @@ function App() {
             <Route path='/rq-super-heroes' element={<RQSuperHeroesPage />} />
             <Route path='/rq-super-heroes/:id' element={<RQSuperHeroPage />} />
             <Route path='/languages' element={<LanguagesPage />} />
+            <Route path='/languages/:id' element={<GreetingsPage />} />
           </Routes>
         </div>
       </Router>
