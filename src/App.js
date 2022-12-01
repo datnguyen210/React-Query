@@ -7,6 +7,7 @@ import { ReactQueryDevtools } from "react-query/devtools";
 import { RQSuperHeroPage } from "./components/RQSuperHero.page";
 import { LanguagesPage } from "./components/Languages.page";
 import { GreetingsPage } from "./components/Greetings.page";
+import { InfiniteQueryPage } from "./components/InfiniteQuery.page";
 
 const queryClient = new QueryClient();
 
@@ -23,6 +24,9 @@ function App() {
               <li>
                 <Link to="/rq-super-heroes">RQ Super Heroes</Link>
               </li>
+              <li>
+                <Link to="/programming-languages">Programming Languages</Link>
+              </li>
             </ul>
           </nav>
           <Routes>
@@ -31,6 +35,10 @@ function App() {
             <Route path="/rq-super-heroes/:id" element={<RQSuperHeroPage />} />
             <Route path="/languages" element={<LanguagesPage />} />
             <Route path="/languages/:id" element={<GreetingsPage />} />
+            <Route
+              path="/programming-languages"
+              element={<InfiniteQueryPage />}
+            />
           </Routes>
         </div>
       </Router>

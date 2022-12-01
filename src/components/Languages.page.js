@@ -3,6 +3,7 @@ import { useState } from "react";
 import { useQuery } from "react-query";
 
 const fetchLanguages = function (page) {
+  //built-in query params set => just need to pass in the number of page and limit of items per page
   return axios.get("http://localhost:4000/languages?_limit=2&_page=" + page);
 };
 
@@ -10,6 +11,7 @@ const useLanguagesData = function (pageNumber) {
   return useQuery({
     queryKey: ["languages", pageNumber],
     queryFn: () => fetchLanguages(pageNumber),
+    // When fetching new data in the new page, the isLoading is not true anymore, instead, user keep seeing the previous data til the new data arrives
     keepPreviousData: true,
   });
 };

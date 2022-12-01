@@ -1,47 +1,57 @@
 {
-    "superheroes": [
-        {
-            "id": 1,
-            "name": "Batman",
-            "alterEgo": "Bruce Wayne"
-        },
-        {
-            "id": 2,
-            "name": "Superman",
-            "alterEgo": "Clark Kent"
-        },
-        {
-            "id": 3,
-            "name": "Wonder Woman",
-            "alterEgo": "Princess Diana"
-        }
-    ],
-    "languages": [
-        {
-            "id": 1,
-            "nativeName": "English"
-        },
-        {
-            "id": 2,
-            "nativeName": "Tiếng Việt"
-        },
-        {
-            "id": 3,
-            "nativeName": "日本語"
-        }
-    ],
-    "greetings": [
-        {
-            "id": "English",
-            "greeting": "Hello"
-        },
-        {
-            "id": "Tiếng Việt",
-            "greeting": "Xin Chào"
-        },
-        {
-            "id": "日本語",
-            "greeting": "こんにちは"
-        }
-    ]
+  "superheroes": [
+    {
+      "id": 1,
+      "name": "Batman",
+      "alterEgo": "Bruce Wayne"
+    },
+    {
+      "id": 2,
+      "name": "Superman",
+      "alterEgo": "Clark Kent"
+    },
+    {
+      "id": 3,
+      "name": "Wonder Woman",
+      "alterEgo": "Princess Diana"
+    }
+  ],
+  "languages": [
+    {
+      "id": 1,
+      "nativeName": "English"
+    },
+    {
+      "id": 2,
+      "nativeName": "Tiếng Việt"
+    },
+    {
+      "id": 3,
+      "nativeName": "日本語"
+    }
+  ],
+  "greetings": [
+    {
+      "id": "English",
+      "greeting": "Hello"
+    },
+    {
+      "id": "Tiếng Việt",
+      "greeting": "Xin Chào"
+    },
+    {
+      "id": "日本語",
+      "greeting": "こんにちは"
+    }
+  ],
+  "programmingLanguages": [
+    { "id": 1, "name": "Javascript" },
+    { "id": 2, "name": "Typescript" },
+    { "id": 3, "name": "Java" },
+    { "id": 4, "name": "Coffeescript" },
+    { "id": 5, "name": "Python" },
+    { "id": 6, "name": "Go" },
+    { "id": 7, "name": "Solidity" },
+    { "id": 8, "name": "R" }
+  ]
 }
