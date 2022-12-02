@@ -8,6 +8,7 @@ import { RQSuperHeroPage } from "./components/RQSuperHero.page";
 import { LanguagesPage } from "./components/Languages.page";
 import { GreetingsPage } from "./components/Greetings.page";
 import { InfiniteQueryPage } from "./components/InfiniteQuery.page";
+import { MutationPage } from "./components/Mutation.page";
 
 const queryClient = new QueryClient();
 
@@ -38,6 +39,10 @@ function App() {
             <Route
               path="/programming-languages"
               element={<InfiniteQueryPage />}
+            />
+            <Route
+              path="/programming-languages/add"
+              element={<MutationPage />}
             />
           </Routes>
         </div>
